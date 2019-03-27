@@ -14,7 +14,7 @@ now create a config for the check /etc/sensu/conf.d/myapp.json
 ```
 {
   "checks": {
-  "nest-stats": {
+  "myapp-stats": {
      "type": "metric",
      "command":"/opt/sensu/embedded/bin/metrics_per_process.py -p /home/user/my-app.js",
      "interval": 60,
